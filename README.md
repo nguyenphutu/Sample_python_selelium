@@ -16,5 +16,10 @@
 4. Run sample test
     - $ python Sample.py
 
-Result 
+- Result 
+
 ![alt text](result.PNG)
+
+- result if have false in test
+
+![alt text](result_if_have_false.PNG)

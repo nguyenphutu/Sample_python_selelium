@@ -16,6 +16,15 @@ class PythonOrgSearch(unittest.TestCase):
         elem.send_keys(Keys.RETURN)
         assert "No results found." not in driver.page_source
 
+    def test_false_search(self):
+        driver = self.driver
+        driver.get("http://www.python.org")
+        self.assertIn("Python", driver.title)
+        elem = driver.find_element_by_name("q")
+        elem.send_keys("pycon")
+        elem.send_keys(Keys.RETURN)
+        assert "No results found." in driver.page_source
+
 
     def tearDown(self):
         self.driver.close()
