@@ -1,0 +1,24 @@
+1526201268967	geckodriver	INFO	geckodriver 0.20.1
+1526201269137	geckodriver	INFO	Listening on 127.0.0.1:51366
+1526201330469	geckodriver	INFO	geckodriver 0.20.1
+1526201330469	geckodriver	INFO	Listening on 127.0.0.1:51375
+1526201375958	geckodriver	INFO	geckodriver 0.20.1
+1526201375973	geckodriver	INFO	Listening on 127.0.0.1:51386
+1526201940809	geckodriver	INFO	geckodriver 0.20.1
+1526201940840	geckodriver	INFO	Listening on 127.0.0.1:51760
+1526201944153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile.CoYwO0Ujp2CH"
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Admin\AppData\Local\openvr\openvrpaths.vrpath
+1526201949777	Marionette	INFO	Listening on port 51768
+1526201950576	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 30076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 37184, Chrome_ChildThre[Parent 30076, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 826: Error: Connection is not open.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
